@@ -14,6 +14,7 @@ foods = pop();
 console.log (foods)
 function pop() {
     const poparray = [];
+    //create a for loop
     for(let i = 0; i < foods.length - 1; i++) {
     poparray[i] = foods[i];
     }
@@ -40,6 +41,7 @@ function toString(arr) {
     return fruitsItems;
 }
 
+//create variable
 var flowers = ["daisy", "rose", "poppy", "lily"];
 console.log(flowers.join("/"));
 
@@ -56,11 +58,15 @@ function Join(arr) {
     return flowersItems;
 }
 
+//Create variables
 var numbers = [3, 4, 5, 6, 7];
 var animals = ["dog", 'cat', "lizard", "cow", "pig"];
 
+//Create function
 function concat(numbersArray, animalsArray) {
+    //create for loop
     for( let i = 0; i < animalsArray.length; i++){
+        //Push animalArray so it appears at the end of numbersArray
         push(animalsArray[i]);
     }
 
